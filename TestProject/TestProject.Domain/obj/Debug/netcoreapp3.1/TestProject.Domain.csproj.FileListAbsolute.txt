@@ -1,0 +1,10 @@
+C:\Projects\Desafio-BackEnd\TestProject\TestProject.Domain\bin\Debug\netcoreapp3.1\TestProject.Domain.deps.json
+C:\Projects\Desafio-BackEnd\TestProject\TestProject.Domain\bin\Debug\netcoreapp3.1\TestProject.Domain.dll
+C:\Projects\Desafio-BackEnd\TestProject\TestProject.Domain\bin\Debug\netcoreapp3.1\TestProject.Domain.pdb
+C:\Projects\Desafio-BackEnd\TestProject\TestProject.Domain\obj\Debug\netcoreapp3.1\TestProject.Domain.csproj.AssemblyReference.cache
+C:\Projects\Desafio-BackEnd\TestProject\TestProject.Domain\obj\Debug\netcoreapp3.1\TestProject.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projects\Desafio-BackEnd\TestProject\TestProject.Domain\obj\Debug\netcoreapp3.1\TestProject.Domain.AssemblyInfoInputs.cache
+C:\Projects\Desafio-BackEnd\TestProject\TestProject.Domain\obj\Debug\netcoreapp3.1\TestProject.Domain.AssemblyInfo.cs
+C:\Projects\Desafio-BackEnd\TestProject\TestProject.Domain\obj\Debug\netcoreapp3.1\TestProject.Domain.csproj.CoreCompileInputs.cache
+C:\Projects\Desafio-BackEnd\TestProject\TestProject.Domain\obj\Debug\netcoreapp3.1\TestProject.Domain.dll
+C:\Projects\Desafio-BackEnd\TestProject\TestProject.Domain\obj\Debug\netcoreapp3.1\TestProject.Domain.pdb
