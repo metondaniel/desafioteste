@@ -49,7 +49,7 @@ namespace TestProject.Repository
 
         public async Task<bool> CheckBikeAvailabilityAsync( int bikeId )
         {
-            return (await _bikes.FindAsync( bike => bike.Id == bikeId && !bike.IsRented )).Any();
+            return (await _bikes.FindAsync( bike => bike.Id == bikeId && bike.IsRented == false )).Any();
         }
     }
 

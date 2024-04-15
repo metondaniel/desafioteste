@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 using System.Threading.Tasks;
+using MongoDB.Driver;
 using TestProject.Domain.Entities;
 using TestProject.Domain.Interfaces.Repositories;
 
@@ -9,14 +10,20 @@ namespace TestProject.Repository
 {
     public class RentalRepository : IRentalRepository
     {
-        public Task AddRentalAsync( Rental rental )
+        private readonly IMongoCollection<Rental> _rental;
+
+        public RentalRepository( IMongoDatabase database )
         {
-            throw new NotImplementedException();
+            _rental = database.GetCollection<Rental>( "Rentals" );
+        }
+        public async Task AddRentalAsync( Rental rental )
+        {
+            await _rental.InsertOneAsync( rental );
         }
 
-        public Task<Rental> GetRentalByIdAsync( int rentalId )
+        public async Task<Rental> GetRentalByIdAsync( int rentalId )
         {
-            throw new NotImplementedException();
+            return await _rental.Find( rental => rental.Id == rentalId ).FirstOrDefaultAsync();
         }
     }
 }
